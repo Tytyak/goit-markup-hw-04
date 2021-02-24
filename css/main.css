@@ -41,14 +41,18 @@ p{
     font-size: 26px;
     line-height: 30,52px;
     color: var(--black); */
-    width: 145px;
-    height: 31px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.192;
     color: var(--black);
 
+}
+
+.flex{
+    display: flex;
 }
 
 .logo-first{
@@ -62,8 +66,9 @@ p{
     display: flex;
 }
 
+
 .nav-list{
-    justify-content: space-between;
+    
     align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -73,9 +78,10 @@ p{
     margin-left: 50px;
 }
 
-.contacts-list li:last-child{
+.contacts-list .contacts-item + .contacts-item {
     margin-left: 50px;
 }
+
 
 .contacts-list{
     margin-left: auto;
@@ -85,6 +91,8 @@ p{
 
 
 .nav-item{
+    display: flex;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -107,12 +115,14 @@ p{
 }
 
 .contacts{
-    display: inline-block;
+    display: flex;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
     color: var(--gray);
+    fill: var(--gray);
 }
 
 .contacts:hover,
