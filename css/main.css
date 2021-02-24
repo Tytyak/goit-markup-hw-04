@@ -89,6 +89,15 @@ p{
     align-items: center;
 }
 
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--blue);
+    fill: var(--blue);
+}
+
+.mail-icon{
+    fill: currentColor;
+}
 
 .nav-item{
     display: flex;
@@ -104,14 +113,8 @@ p{
     color: var(--black);
 }
 
-.nav-link:hover,
-.nav-link:focus{
-    color: var(--blue);
-}
-
 .mail-icon{
     margin-right: 10px;
-    justify-content: space-between;
 }
 
 .contacts{
@@ -178,7 +181,16 @@ p{
      
 }
 
+.advant-icon{
+    display: block;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 55px;
+}
+
 .advant{
+    margin-top: 94px;
     padding-top: 47px;
 }
 
