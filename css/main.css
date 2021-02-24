@@ -79,6 +79,8 @@ p{
 
 .contacts-list{
     margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -99,7 +101,13 @@ p{
     color: var(--blue);
 }
 
+.mail-icon{
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
 .contacts{
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -128,6 +136,18 @@ p{
     padding-bottom: 200px;
     padding-top: 200px;
     text-align: center;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../images/Img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
