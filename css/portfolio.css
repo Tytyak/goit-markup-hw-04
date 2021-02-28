@@ -37,6 +37,8 @@ p{
 .page-header{
     border-bottom: 1px solid var(--border-head);
     max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
        
 .logo{
