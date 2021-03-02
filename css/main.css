@@ -50,6 +50,9 @@ p{
     color: var(--black);
 
 }
+.page-header{
+    
+}
 
 .flex{
     display: flex;
@@ -72,6 +75,7 @@ p{
     align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
+    max-height: 80px;
 }
 
 .nav-item li{
@@ -141,6 +145,7 @@ p{
     font-size: 44px;
     line-height: 1.363;
     text-transform: uppercase;
+    color: var(--white);
 
 }
 
@@ -191,8 +196,7 @@ p{
 }
 
 .advant{
-    margin-top: 94px;
-    padding-top: 47px;
+    padding-top: 94px;
 }
 
 .advant-list{
@@ -284,6 +288,12 @@ img{
 .page-team{
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: var(--background-buton);
+    max-width: 1600px;
+    max-height: 708px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .social-network{
@@ -450,8 +460,11 @@ img{
 }
 
 .join-them{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
     margin-bottom: 20px;
-
     text-transform: uppercase;
     color: var(--white);
 }

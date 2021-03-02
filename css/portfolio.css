@@ -79,6 +79,7 @@ p{
     align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
+    max-height: 80px;
 }
 
 .nav-item li{
