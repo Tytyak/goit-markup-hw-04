@@ -268,8 +268,11 @@ img{
 }
 
 .join-them{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
     margin-bottom: 20px;
-
     text-transform: uppercase;
     color: var(--white);
 }
